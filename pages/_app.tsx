@@ -4,7 +4,6 @@ import { Analytics } from '@vercel/analytics/react';
 import { ReCaptchaProvider } from "next-recaptcha-v3";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <ReCaptchaProvider><Component {...pageProps} /><
-    Analytics
-  /></ReCaptchaProvider>
+  return <ReCaptchaProvider><Component {...pageProps} />
+    <Analytics /></ReCaptchaProvider>
 }

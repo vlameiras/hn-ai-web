@@ -25,6 +25,10 @@ const Home: React.FC = () => {
           <a href="https://github.com/vlameiras" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github"></i>
           </a>
+          <a href="https://your_substack_url" target="_blank" rel="noopener noreferrer">
+  <img src="https://substackcdn.com/image/fetch/w_96,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fba81cfff-7bc5-4aef-866e-864d0942c42d_1000x1000.png" alt="Substack" style={{width: '24px', height: '24px', marginLeft: '10px', marginRight: '10px'}} />
+</a>
+
         </div>
         <div className="footer">
           <p>
